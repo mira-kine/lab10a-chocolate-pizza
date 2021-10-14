@@ -16,3 +16,22 @@ font-family: 'Oswald', sans-serif;
     font-weight: 200;
 
 }
+#print {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 200;
+    font-size: .8rem;
+}
+#instructions-div {
+    color: grey;
+}
+section {
+    font-family: cursive;
+}
+#bio-div {
+    font-family: 'Roboto Slab', serif;
+    color: grey;
+}
+
+#bio-div>p {
+    font-size: 14px;
+}
