@@ -35,3 +35,13 @@ section {
 #bio-div>p {
     font-size: 14px;
 }
+#cp-image{
+    width: 600px;
+}
+
+#ingredients {
+    background-image: url(../assets/list-bg.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
