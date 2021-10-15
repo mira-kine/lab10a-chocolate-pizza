@@ -37,10 +37,18 @@ section {
 #bio-div {
     font-family: 'Roboto Slab', serif;
     color: grey;
+    display: flex;
+    align-items: center;
+    width: 600px;
+    
 }
 
 #bio-div>p {
     font-size: 14px;
+}
+#bio-div>img {
+    width: 50px;
+    height: 50px;
 }
 #cp-image{
     width: 600px;
@@ -74,4 +82,28 @@ header {
 
 #icon-div {
     align-items: flex-end;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    
+    align-items: center;
+    
+}
+#footer-div{
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    font-size: .8rem;
+    color: rgb(163, 163, 163);
+}
+
+button {
+    background-color: rgb(172, 92, 0);
+    color: white;
+    width: 130px;
+    height: 40px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 200;
 }
